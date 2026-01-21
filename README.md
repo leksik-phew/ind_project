@@ -8,5 +8,8 @@ python --version
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
+ pip install -U python-telegram-bot==21.6 python-dotenv requests
+ ollama pull llava:7b
+ ollama pull qwen2.5:7b
 ```
 
